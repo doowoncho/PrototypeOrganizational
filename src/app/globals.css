@@ -2,9 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=San+Francisco&display=swap');
 *{
   font-family: 'San Francisco', Helvetica, Arial, sans-serif;
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(254, 254, 254);
 }
 
 #table{
   background-color: red;
+}
+
+a{
+  background-color: none;
+  color: black;
 }

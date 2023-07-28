@@ -2,7 +2,7 @@
 export default function Table() {
   return (
     <div>
-      <div className='container my-5'>
+      <div className='container my-4'>
           <table id="table" className="table table-hover">
             <thead>
                 <tr>
@@ -18,7 +18,7 @@ export default function Table() {
                 </tr>
             </thead>
             <tbody>
-                <tr>
+                <tr> 
                     <td><a href='/Orders'>1</a></td>
                     <td>Otto</td>
                     <td>@mdo</td>
