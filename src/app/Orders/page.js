@@ -18,7 +18,6 @@ export default function Orders() {
           <h1>Notes</h1>
           <h1>WO#</h1>
           <h1>PO#</h1>
-
           </div>
         </div>
       </div>
