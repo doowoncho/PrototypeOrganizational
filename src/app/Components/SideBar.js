@@ -1,12 +1,12 @@
 export default function SideBar() {
   return (
     <div id="navbar"> 
-        <nav class="navbar navbar-expand-lg mx-4">
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav mx-4">
-              <a class="nav-item nav-link active" href="/">Home</a>
-              <a class="nav-item nav-link" href="#">Statistics</a>
-              <a class="nav-item nav-link" href="#">Pricing Chart</a>
+        <nav className="navbar navbar-expand-lg mx-4">
+          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div className="navbar-nav mx-4">
+              <a className="nav-item nav-link active" href="/">Home</a>
+              <a className="nav-item nav-link" href="#">Statistics</a>
+              <a className="nav-item nav-link" href="#">Pricing Chart</a>
             </div>
           </div>
         </nav>
