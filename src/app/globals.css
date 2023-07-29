@@ -2,13 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=San+Francisco&display=swap');
 *{
   font-family: 'San Francisco', Helvetica, Arial, sans-serif;
-}
-
-#table thead td{
-  background-color: red;
+  color: black;
 }
 
 a{
   background-color: none;
   color: black;
+}
+
+#navbar{
+  background-color: #254A96;
+}
+
+#navbar a{
+  color: #F6FCFF;
 }
