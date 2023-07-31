@@ -7,11 +7,21 @@ import PieGraph from "../Components/PieGraph";
 
 export default function Statistics() {
   return (
-    <div>
+    <div className="bg-light">
       <SideBar></SideBar>
-      <PieGraph></PieGraph>
-      <BarGraph></BarGraph>
-      <LineGraph></LineGraph>
+        <div className="container">
+          <h1 className="mt-4 mx-4">Statistics Dashboard</h1>
+          <p className="my-1 mx-5">Monthly or Yearly Numbers</p>
+        </div>
+        <div className="container d-flex justify-content-center align-items-center">
+          <LineGraph></LineGraph>
+        </div>
+      <div className="bg-white">
+        <div className="container d-flex justify-content-center align-items-center">
+          <PieGraph></PieGraph>
+          <BarGraph></BarGraph>
+        </div>
+      </div>
    </div>
   )
 }

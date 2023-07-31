@@ -7,7 +7,7 @@ import { Dropdown } from 'react-bootstrap';
 export default function Home() {
   const Card = ({ bg, header, icon, color, num}) => 
   (
-        <div className={`card ${bg} my-4 mx-2 shadow border-white p-3 bg-white rounded`}>
+        <div className={`card ${bg} my-4 mx-2 border p-3 bg-white rounded`}>
           <div className="card-content">
             <div className="card-body">
               <div className="media d-flex">

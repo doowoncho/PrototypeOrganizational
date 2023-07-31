@@ -1,12 +1,11 @@
 export default function SideBar() {
   return (
     <div id="navbar"> 
-        <nav className="navbar navbar-expand-lg mx-4">
+        <nav className="navbar navbar-expand-lg mx-4 bg-white">
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav mx-4">
               <a className="nav-item nav-link active" href="/">Home</a>
               <a className="nav-item nav-link" href="/Statistics">Statistics</a>
-              <a className="nav-item nav-link" href="#">Pricing Chart</a>
             </div>
           </div>
         </nav>
