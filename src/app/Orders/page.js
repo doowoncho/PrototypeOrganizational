@@ -53,7 +53,7 @@ export default function Orders() {
             <img src="https://www.kadencewp.com/wp-content/uploads/2020/10/alogo-1.png" style={{height:"8rem"}}></img>
           </div>
         </div>
-        <div style={{display:"flex", alignItems:"center", justifyContent:"center", flexDirection:"row", gap:"5%", marginLeft:"3%", marginRight:"2%"}}>
+        <div style={{display:"flex", alignItems:"center", justifyContent:"center", flexDirection:"row", gap:"3%", marginLeft:"3%", marginRight:"2%"}}>
           <div className="card border" style={{display:"flex", alignItems:"center", justifyContent:"center", width:"50%", marginBottom:"2rem", border: "none"}}>
             <div className="card-title" style={{fontSize:"1.5rem", marginRight:"auto", marginLeft:"5%", marginTop:"2%"}}>1 LL 11 Ave 2-4 ST SW</div>
             <fieldset className="mt-3" disabled>
@@ -82,7 +82,7 @@ export default function Orders() {
           </div>
         </div>
         <div style={{marginBottom:"3rem"}}>
-          <div className="card " style={{width:"80%", margin:"auto"}}>
+          <div className="card " style={{width:"83%", margin:"auto"}}>
             <div className="card-title" style={{fontSize:"1.5rem", marginRight:"auto", marginLeft:"5%", marginTop:"2%"}}>Files</div>
             <div style={{display:"flex", alignItems:"center", justifyContent:"space-around"}}>
               <Files type="Permit Confirmation" width="14rem" icon="bi bi-clipboard2-check"></Files>
