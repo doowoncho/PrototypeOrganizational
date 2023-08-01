@@ -1,4 +1,7 @@
 'use client'
+import BarGraph from './Components/BarGraph';
+import LineGraph from './Components/LineGraph';
+import PieGraph from './Components/PieGraph';
 import SideBar from './Components/SideBar';
 import Table from './Components/Table';
 import "bootstrap-icons/font/bootstrap-icons.css";
@@ -7,14 +10,14 @@ import { Dropdown } from 'react-bootstrap';
 export default function Home() {
   const Card = ({ bg, header, icon, color, num}) => 
   (
-        <div className={`card ${bg} my-4 mx-2 shadow border-white p-3 bg-white rounded`}>
+        <div className={`card ${bg} my-4 mx-2 border bg-white rounded`}>
           <div className="card-content">
             <div className="card-body">
               <div className="media d-flex">
                 <div className="align-self-center">
                   <i className={`${icon} mx-3 ${color}`} style={{ fontSize: "2rem" }}></i>
                 </div>
-                <div className='mx-3'></div>
+                <div className='mx-1'></div>
                   <div>
                     <h3 className={`text-center ${color}`}>{num}</h3>
                     <span className={color}>{header}</span>
@@ -25,6 +28,7 @@ export default function Home() {
       </div>
   );
 
+  
   return (
     <div>
       <div style={{display:"flex", flexDirection:"row"}}>
