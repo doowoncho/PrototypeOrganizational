@@ -31,27 +31,29 @@ export default function Home() {
   
   return (
     <div>
-      <div style={{display:"flex", flexDirection:"row"}}>
-        <SideBar></SideBar>
-        <div>
+      <div style={{display:"flex", flexDirection:"row", gap:"12%"}}>
+        <div className="border">
+          <SideBar></SideBar>
+        </div>
+        <div className ="container">
           <div>
             <div className="container">
-              <h1 className="mx-4">Admin Dashboard</h1>
+              <h1 className="mt-5">Admin Dashboard</h1>
             </div>
-            <div className="container d-flex justify-content-center align-items-center" style={{display:"flex", flexDirection:"row"}}>
+            <div className=" d-flex justify-content-center">
+              <div className='container'>
                 <LineGraph></LineGraph>
-              <div>
+              </div>
+              <div className='container'>
                 <BarGraph></BarGraph>
                 <PieGraph></PieGraph>
               </div>
               <div className='container mt-4'>
               <div className='row'>
                 <div className='col'></div> {/* An empty column to push the button to the right */}
-                <div className='col-auto d-flex'>
-                  <a href='/Table'>See more</a>
-                </div>
               </div>
-
+              </div>
+            </div>
                 <div className='my-3 d-flex border'>     
                   <Table></Table>
                   <div >
@@ -60,12 +62,14 @@ export default function Home() {
                       <Card header="Completed" icon="bi bi-check-lg" color="text-success" num="10"/>
                       <Card header="Priority" icon="bi bi-exclamation-lg" color="text-danger" num="3"/>
                     </div>
+                <div className='col-auto d-flex mx-4 mt-5'>
+                  <a href='/Table'>See more</a>
+                </div>
                   </div>
                 </div>
-              </div>
-            </div>
           </div>
         </div>
+
       </div>
     </div>
   );

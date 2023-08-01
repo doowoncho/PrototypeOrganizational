@@ -28,8 +28,10 @@ export default function Orders() {
 
   return (
     <div>
+      <div className="border">
       <SideBar></SideBar>
-      <div className="card shadow-lg" style={{width:"50%", margin:"auto", marginBottom:"2rem", border: "none"}}>
+      </div>
+      <div className="card border shadow-lg container mt-4" style={{width:"50%", border: "none"}}>
         <div style={{display:"flex", alignItems:"center", justifyContent:"center", flexDirection:"row", gap:"5%"}}>
           <div className="card " style={{display:"flex", alignItems:"center", justifyContent:"center", width:"60%", marginTop:"2rem", marginBottom:"2rem"}}>
             <div className="card-title" style={{fontSize:"2rem", marginRight:"auto", marginLeft:"5%", marginTop:"2%"}}>Enmax</div>
