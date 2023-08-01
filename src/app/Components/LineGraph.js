@@ -12,7 +12,7 @@ const data = [
 
 const LineGraph = () => {
   return (
-    <LineChart width={1000} height={600} data={data}> 
+    <LineChart width={1000} height={500} data={data}> 
       <CartesianGrid strokeDasharray="3 3" />
       <XAxis dataKey="name" />
       <YAxis />

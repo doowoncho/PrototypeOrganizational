@@ -30,8 +30,11 @@ export default function Home() {
 
   
   return (
-    <div>
+    <main className='d-flex'>
+      <content>
       <SideBar></SideBar>
+      </content>
+      <content>
       <div className="bg-light">
         <div className="container">
           <h1 className="mx-4">Admin Dashboard</h1>
@@ -64,7 +67,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-    </div>
+      </content>
+    </main>
   );
 }
