@@ -21,7 +21,7 @@ export default function Table() {
                 <tr> 
                     <td><a href='/Orders'>1</a></td>
                     <td>01/21/2023</td>
-                    <td>New</td>
+                    <td>Priority</td>
                     <td>1 LL 11 Ave 2-4 ST SW</td>
                     <td>Enmax</td>
                     <td>@SU-232-23232</td>
