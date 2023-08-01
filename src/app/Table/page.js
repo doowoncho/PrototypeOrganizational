@@ -27,9 +27,11 @@ export default function Home() {
 
   return (
     <div>
-      
+      <div className='border'>
+
       <SideBar></SideBar>
-      <div className='border border-1 bg-light'>
+      </div>
+      <div className='border border-1 bg-light my-5'>
         <div className="container d-flex justify-content-center my-3">
           <Card header="New Requests" num="12" icon="bi bi-bell-fill" color="text-primary"/>
           <Card header="Pending Permits" icon="bi bi-archive-fill" num="4"/>
