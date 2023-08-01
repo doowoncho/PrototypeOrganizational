@@ -1,5 +1,12 @@
+"use client";
+import { SUBRESOURCE_INTEGRITY_MANIFEST } from 'next/dist/shared/lib/constants';
+import { Sidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
+import Link from 'next/link';
+
+
 export default function SideBar() {
   return (
+<<<<<<< Updated upstream
     <div id="navbar"> 
         <nav className="navbar navbar-expand-lg mx-4">
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -11,6 +18,25 @@ export default function SideBar() {
           </div>
         </nav>
    </div>
+=======
+    <Sidebar style={{height:"100vh", width:"5rem"}}>
+      <Menu>
+        <MenuItem component={<Link href="/" />}>Home</MenuItem>
+        <MenuItem component={<Link href="/Statistics" />}>Statistics</MenuItem>
+        <MenuItem component={<Link href="/Table" />}>Table</MenuItem>
+      </Menu>
+    </Sidebar>
+  //   <div id="navbar" style={{height:"100vh"}}> 
+  //       <nav className="navbar navbar-expand-lg mx-4 bg-white">
+  //         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+  //           <div className="navbar-nav mx-4" style={{display:"flex", justifyContent:"center", alignItems:"center", flexDirection:"column"}}>
+  //             <a className="nav-item nav-link active" href="/">Home</a>
+  //             <a className="nav-item nav-link" href="/Statistics">Statistics</a>
+  //           </div>
+  //         </div>
+  //       </nav>
+  //  </div>
+>>>>>>> Stashed changes
   // <div class="position-fixed ">
   //   <div class="row">
   //           <div class="d-flex flex-sm-column flex-row flex-nowrap bg-light align-items-center sticky-top">

@@ -18,6 +18,12 @@
     "next": "13.4.12",
     "react": "18.2.0",
     "react-bootstrap": "^2.8.0",
+<<<<<<< Updated upstream
     "react-dom": "18.2.0"
+=======
+    "react-dom": "18.2.0",
+    "react-pro-sidebar": "^1.1.0-alpha.1",
+    "recharts": "^2.7.2"
+>>>>>>> Stashed changes
   }
 }
