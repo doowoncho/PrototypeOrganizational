@@ -6,19 +6,6 @@ import Link from 'next/link';
 
 export default function SideBar() {
   return (
-<<<<<<< Updated upstream
-    <div id="navbar"> 
-        <nav className="navbar navbar-expand-lg mx-4">
-          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div className="navbar-nav mx-4">
-              <a className="nav-item nav-link active" href="/">Home</a>
-              <a className="nav-item nav-link" href="#">Statistics</a>
-              <a className="nav-item nav-link" href="#">Pricing Chart</a>
-            </div>
-          </div>
-        </nav>
-   </div>
-=======
     <Sidebar style={{height:"100vh", width:"5rem"}}>
       <Menu>
         <MenuItem component={<Link href="/" />}>Home</MenuItem>
@@ -36,7 +23,6 @@ export default function SideBar() {
   //         </div>
   //       </nav>
   //  </div>
->>>>>>> Stashed changes
   // <div class="position-fixed ">
   //   <div class="row">
   //           <div class="d-flex flex-sm-column flex-row flex-nowrap bg-light align-items-center sticky-top">
