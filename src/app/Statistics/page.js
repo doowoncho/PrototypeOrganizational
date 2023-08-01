@@ -1,4 +1,4 @@
-
+"use client";
 import LineGraph from "../Components/LineGraph";
 import SideBar from "../Components/SideBar";
 import BarGraph from "../Components/BarGraph";

@@ -30,44 +30,43 @@ export default function Home() {
 
   
   return (
-    <main className='d-flex'>
-      <content>
-      <SideBar></SideBar>
-      </content>
-      <content>
-      <div className="bg-light">
-        <div className="container">
-          <h1 className="mx-4">Admin Dashboard</h1>
-        </div>
-        <div className="container d-flex justify-content-center align-items-center">
-          <LineGraph></LineGraph>
+    <div>
+      <div style={{display:"flex", flexDirection:"row"}}>
+        <SideBar></SideBar>
+        <div>
           <div>
-            <BarGraph></BarGraph>
-            <PieGraph></PieGraph>
-          </div>
-        </div>
-   </div>
-      <div className='container mt-4'>
-        <div className='row'>
-          <div className='col'>
-          </div> {/* An empty column to push the button to the right */}
-          <div className='col-auto d-flex'>
-            <a href='/Table'>See more</a>
-          </div>
-        </div>
-
-        <div className='my-3 d-flex border'>     
-          <Table></Table>
-          <div >
-              <div className="container justify-content-center my-3">
-                <Card header="New Requests" num="12" icon="bi bi-bell-fill" color="text-primary"/>
-                <Card header="Completed" icon="bi bi-check-lg" color="text-success" num="10"/>
-                <Card header="Priority" icon="bi bi-exclamation-lg" color="text-danger" num="3"/>
+            <div className="container">
+              <h1 className="mx-4">Admin Dashboard</h1>
+            </div>
+            <div className="container d-flex justify-content-center align-items-center" style={{display:"flex", flexDirection:"row"}}>
+                <LineGraph></LineGraph>
+              <div>
+                <BarGraph></BarGraph>
+                <PieGraph></PieGraph>
               </div>
+              <div className='container mt-4'>
+              <div className='row'>
+                <div className='col'></div> {/* An empty column to push the button to the right */}
+                <div className='col-auto d-flex'>
+                  <a href='/Table'>See more</a>
+                </div>
+              </div>
+
+                <div className='my-3 d-flex border'>     
+                  <Table></Table>
+                  <div >
+                    <div className="container justify-content-center my-3">
+                      <Card header="New Requests" num="12" icon="bi bi-bell-fill" color="text-primary"/>
+                      <Card header="Completed" icon="bi bi-check-lg" color="text-success" num="10"/>
+                      <Card header="Priority" icon="bi bi-exclamation-lg" color="text-danger" num="3"/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      </content>
-    </main>
+    </div>
   );
 }
